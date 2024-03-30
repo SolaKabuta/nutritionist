@@ -6,7 +6,7 @@ const Homepage = () => {
             <div
                 className={'core'}>
                 <div
-                    className={'grid grid-cols-2 gap-20 '}>
+                    className={'flex justify-start gap-20 '}>
                     <div>
                         <img
                             src={banner}
@@ -36,18 +36,22 @@ const Homepage = () => {
                             Start your transformation today and experience the <br/>
                             power of personalized nutrition coaching.
                         </p>
-                        <a href="">
-                            Get Starter Today
-                        </a>
-                        <a
-                            className={'nav-btn'}
-                            href="">
-                            Book A Demo
-                        </a>
-                        <img src="" alt=""/>
-                        <p>
+                        <div>
+                            <a
+                                className={'nav-btn mr-5'}
+                                href="">
+                                Get Starter Today
+                            </a>
+                            <a
+                                className={'text-black'}
+                                href="">
+                                Book A Demo
+                            </a>
+                            <img src="" alt=""/>
+                            <p>
 
-                        </p>
+                            </p>
+                        </div>
 
                     </div>
                 </div>
