@@ -1,13 +1,17 @@
-import banner from '../../assets/images/banner.jpg'
-import avatars from '../../assets/images/Container.jpg'
+import './HomePage.css'
+import banner from '../../../assets/images/banner.jpg'
+import avatars from '../../../assets/images/Container.jpg'
+// import { useState } from 'react'
+
 
 const Homepage = () => {
+    // const [active, setActive] =
     return (
         <>
             <div
-                className={'core'}>
+                className={'main'}>
                 <div
-                    className={'flex justify-start gap-20 '}>
+                    className={'flexbox'}>
                     <div>
                         <img
                             src={banner}
@@ -15,21 +19,21 @@ const Homepage = () => {
                     </div>
                     <div>
                         <p
-                            className={'font-bold text-2xl pt-32 pb-1'}>
+                            className={'transform'}>
                             Transform Your ❤️ Health with
                         </p>
 
                         {/*DIVIDER*/}
                         <div
-                            className={'divider mb-5'}>
+                            className={'divider'}>
                         </div>
                         <h1
-                            className={'title'}>
+                            className={'main-title'}>
                             Personalized Nutrition <br/>
                             Coaching
                         </h1>
                         <p
-                            className={'txt'}>
+                            className={'main-text'}>
                             Welcome to Nutritionist, your partner in achieving optimal health through personalized nutrition <br/>
                             coaching.
                             Our certified nutritionists are here to guide you on your weight loss journey, providing <br/>
@@ -37,6 +41,8 @@ const Homepage = () => {
                             Start your transformation today and experience the <br/>
                             power of personalized nutrition coaching.
                         </p>
+
+                        {/*BUTTONS*/}
                         <div>
                             <a
                                 className={'nav-btn mr-5'}
@@ -49,13 +55,12 @@ const Homepage = () => {
                                 Book A Demo
                             </a>
                             <div
-                                className={'pt-20 flex items-center gap-3 font-bold text-lg'}>
+                                className={'avatars'}>
                                 <img
                                     src={avatars}
                                     alt="Happy Customers"/>
-                                <p
-                                    className={''}>
-                                    <span className={'text-[#468671]'}>430+ </span>
+                                <p>
+                                    <span className={'numbers'}>430+ </span>
                                     Happy Customers
                                 </p>
                             </div>

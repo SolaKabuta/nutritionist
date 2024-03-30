@@ -1,0 +1,15 @@
+/*NAV*/
+nav {
+    @apply bg-dark-green w-screen px-44 flex justify-between gap-56
+}
+.logo-nav {
+    @apply py-5
+}
+
+ul {
+    @apply bg-dark-green flex justify-end gap-8 p-5 font-bold
+}
+
+.nav-btn {
+    @apply bg-lime-green text-black p-4 rounded-lg font-bold hover:bg-light-lime
+}
