@@ -46,11 +46,11 @@ nav {
 }
 
 ul {
-  @apply bg-[#1A3129] flex justify-end gap-8 p-5
+  @apply bg-[#1A3129] flex justify-end gap-8 p-5 font-bold
 }
 
 .nav-btn {
-  @apply bg-[#CBEA7B] text-black p-4 rounded-lg
+  @apply bg-[#CBEA7B] text-black p-4 rounded-lg font-bold
 }
 
 /*BODY*/
@@ -62,15 +62,21 @@ ul {
   width: 325px;
 }
 .title {
-  @apply pb-5
+  @apply pb-5 font-bold
 }
 .txt {
   @apply pb-20
 }
+
+.btn-2 {
+  @apply bg-[#F6FBE9] border-[#E5F5BD] border-2 py-4 px-8 rounded-lg font-bold
+}
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
+
 
 button {
   border-radius: 8px;

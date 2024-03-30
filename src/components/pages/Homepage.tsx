@@ -1,4 +1,5 @@
 import banner from '../../assets/images/banner.jpg'
+import avatars from '../../assets/images/Container.jpg'
 
 const Homepage = () => {
     return (
@@ -14,7 +15,7 @@ const Homepage = () => {
                     </div>
                     <div>
                         <p
-                            className={'font-bold text-2xl pt-40 pb-1'}>
+                            className={'font-bold text-2xl pt-32 pb-1'}>
                             Transform Your ❤️ Health with
                         </p>
 
@@ -43,14 +44,21 @@ const Homepage = () => {
                                 Get Starter Today
                             </a>
                             <a
-                                className={'text-black'}
+                                className={'btn-2 text-black'}
                                 href="">
                                 Book A Demo
                             </a>
-                            <img src="" alt=""/>
-                            <p>
-
-                            </p>
+                            <div
+                                className={'pt-20 flex items-center gap-3 font-bold text-lg'}>
+                                <img
+                                    src={avatars}
+                                    alt="Happy Customers"/>
+                                <p
+                                    className={''}>
+                                    <span className={'text-[#468671]'}>430+ </span>
+                                    Happy Customers
+                                </p>
+                            </div>
                         </div>
 
                     </div>
