@@ -60,7 +60,6 @@ const Homepage = () => {
                                 </p>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>

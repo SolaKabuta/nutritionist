@@ -1,30 +1,48 @@
-# React + TypeScript + Vite
+# Nutritionist
+This is my personal portfolio website built with React, showcasing my skills and experience as a web developer.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Technologies:
 
-Currently, two official plugins are available:
+Frontend:
+- [React](https://reactjs.org/) : A JavaScript library for building user interfaces.
+- [TypeScript](https://www.typescriptlang.org/): A superset of JavaScript that adds optional static typing.
+- [Framer Motion](https://www.framer.com/motion/): A library for adding smooth animations to React applications.
+- [Tailwind CSS](https://tailwindcss.com/): A utility-first CSS framework for rapid UI development.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Build Tools:
 
-## Expanding the ESLint configuration
+- [Figma](https://www.figma.com/): The design tool where napkin sketches become digital masterpieces (and everything in between).
+- [Vite](https://vitejs.dev/): A lightning-fast development server and bundler for modern web applications.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Description:
 
-- Configure the top-level `parserOptions` property like this:
+This portfolio website is still under development, but it will eventually include:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- Descriptions of my skills and experience
+- Showcases of my web development projects
+- Links to my social media profiles and contact information
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+I'm using React to create a dynamic and interactive user experience.
+TypeScript ensures code clarity and maintainability.
+Framer Motion allows me to add subtle animations for a more engaging user experience.
+Tailwind CSS provides a utility-first approach to styling, making development efficient.
+
+In a near future I'd like to:
+
+- Add a DB
+- Add smoother animations/transitions
+- Add projects
+- Design and build responsive
+
+
+Stay tuned!
+
+As I continue to develop this portfolio, I'll be adding more content and functionality. Feel free to reach out if you have any questions or feedback.
+
+#### Screenshots:
+
+![](./src/assets/projects/screenshots/Sola/portfolio_landing.gif)
+
+[//]: # (![]&#40;./screenshot.jpg&#41;)
+[//]: # (![]&#40;./screenshot.jpg&#41;)
