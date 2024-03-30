@@ -22,6 +22,7 @@ a {
   font-weight: 500;
   color: white;
   text-decoration: inherit;
+  transition: 600ms;
 }
 a:hover {
   color: #535bf2;
@@ -39,18 +40,18 @@ body {
 
 /*NAV*/
 nav {
-  @apply bg-[#1A3129] flex justify-around gap-56
+  @apply bg-dark-green flex justify-around gap-56
 }
 .logo-nav {
   @apply py-5
 }
 
 ul {
-  @apply bg-[#1A3129] flex justify-end gap-8 p-5 font-bold
+  @apply bg-dark-green flex justify-end gap-8 p-5 font-bold
 }
 
 .nav-btn {
-  @apply bg-[#CBEA7B] text-black p-4 rounded-lg font-bold
+  @apply bg-lime-green text-black p-4 rounded-lg font-bold hover:bg-light-lime
 }
 
 /*BODY*/
@@ -69,7 +70,7 @@ ul {
 }
 
 .btn-2 {
-  @apply bg-[#F6FBE9] border-[#E5F5BD] border-2 py-4 px-8 rounded-lg font-bold
+  @apply bg-light-lime border-border-green border-2 py-4 px-8 rounded-lg font-bold
 }
 
 h1 {
