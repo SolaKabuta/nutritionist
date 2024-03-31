@@ -66,7 +66,7 @@
 }
 
 .blog-card {
-    @apply bg-light-lime border-blog-border border-[1px] p-10 rounded-lg content-center
+    @apply grid place-content-center align-middle w-[783px] bg-light-lime border-blog-border border-[1px] rounded-lg p-5 pt-10
 }
 
 .card-name, .card-text {
@@ -77,10 +77,18 @@
     @apply font-bold text-[26px]
 }
 
+.avatar-layout {
+    @apply flex items-center justify-between gap-5 p-4 rounded-lg bg-background
+}
+
 .blog-avatar-title {
     @apply font-bold
 }
 
+.icons-layout {
+    @apply flex gap-5
+}
+
 .blog-icons {
-    @apply p-4  rounded-lg border-blog-border bg-light-lime
+    @apply p-4 rounded-lg border-blog-border bg-light-lime
 }
