@@ -1,4 +1,5 @@
 import logo from "../../../assets/logo/Logo.svg";
+import arrow from "../../../assets/icons/btn_arrow.svg";
 import './Footer.css'
 const Footer = () => {
     return (
@@ -14,47 +15,53 @@ const Footer = () => {
                             alt="Nutritionist logo"
                             loading={'lazy'}/>
                     </div>
-                    <ul>
-                        {/*NAV*/}
-                        <li>
-                            <a href="#">Home
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#About">About
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#Team">Team
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#Process">Process
-
-                            </a>
-
-                        </li>
-                        <li>
-                            <a href="#Pricing">Pricing
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#Blog">Blog
-                            </a>
-                        </li>
-                        <li>
-                            <a
-                               href="#Contact">Contact
-                            </a>
-                        </li>
-                        <div>
+                    <div>
+                        <ul>
+                            {/*NAV*/}
                             <li>
-                                <a className={'top'}
-                                   href="#">Go To Top
+                                <a href="#">Home
                                 </a>
                             </li>
-                        </div>
-                    </ul>
+                            <li>
+                                <a href="#About">About
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#Team">Team
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#Process">Process
+
+                                </a>
+
+                            </li>
+                            <li>
+                                <a href="#Pricing">Pricing
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#Blog">Blog
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="#Contact">Contact
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div
+                        className={'flex items-center'}>
+                        <a className={'top pr-5'}
+                           href="#">Go To Top
+                        </a>
+                        <a
+                            className={'arrow-btn'}
+                            href="#">
+                            <img src={arrow} alt=""/>
+                        </a>
+                    </div>
                 </nav>
             </div>
         </>

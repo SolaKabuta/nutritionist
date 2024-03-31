@@ -33,6 +33,7 @@ const Homepage = () => {
                             className={'divider'}>
                         </div>
                         <h1
+                            id={'home'}
                             className={'main-title'}>
                             Personalized Nutrition <br/>
                             Coaching

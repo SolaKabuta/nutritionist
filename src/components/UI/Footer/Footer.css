@@ -1,3 +1,7 @@
 .nav-footer {
     @apply justify-around
 }
+
+.arrow-btn {
+    @apply ease-in-out duration-700 hover:scale-125 hover:animate-pulse
+}
