@@ -1,6 +1,5 @@
 import './Navbar.css'
 import logo from '../../../assets/logo/Logo.svg'
-import Button from "../Buttons/Button.tsx";
 
 
 const Navbar = () => {
@@ -50,10 +49,9 @@ const Navbar = () => {
                         </li>
                         {/*BTN CONTACT*/}
                         <li>
-                            <a onClick={handleClick}
+                            <a onClick={handleClick} className={'nav-btn'}
                                href="#Contact">Contact Us
                             </a>
-                            <Button onClick={handleClick}>Contact Us</Button>
                         </li>
                     </ul>
                 </nav>

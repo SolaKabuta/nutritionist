@@ -2,7 +2,7 @@ import './HomePage.css'
 import banner from '../../../assets/images/banner.jpg'
 import avatars from '../../../assets/images/Container.jpg'
 import Features from "./Features.tsx";
-import Footer from '../../UI/Footer/Footer.tsx'
+// import Footer from '../../UI/Footer/Footer.tsx'
 // import { useState } from 'react'
 
 
@@ -69,15 +69,13 @@ const Homepage = () => {
                         </div>
                     </div>
                 </div>
-                {/* FEATURES */}
-                <div>
-                    <Features/>
-                </div>
             </div>
+
+            {/* FEATURES */}
+            <Features/>
+
             {/* FOOTER */}
-            <div>
-                <Footer/>
-            </div>
+            {/*<Footer/>*/}
         </>
     );
 };
