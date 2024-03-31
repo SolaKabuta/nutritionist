@@ -1,0 +1,21 @@
+/* TESTIMONIALS */
+
+.testi-layout {
+    @apply flex justify-center gap-5
+}
+
+.testi-card {
+    @apply w-[518px] border-blog-border border-[1px] rounded-lg
+}
+
+.Jen {
+    @apply  flex items-center gap-5 bg-light-lime p-10
+}
+
+.nav-layout {
+    @apply flex items-center justify-center gap-16 pt-20
+}
+
+.nav-bg {
+    @apply bg-light-lime border-blog-border border-[1px] rounded-lg p-5
+}

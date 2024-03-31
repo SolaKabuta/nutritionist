@@ -1,3 +1,5 @@
+import './Blogs.css'
+
 import card1 from '../../../assets/images/blog_card_1.jpg'
 import avatar from '../../../assets/images/blog_avatar.jpg'
 import heart from '../../../assets/icons/heart.svg'
@@ -40,9 +42,9 @@ const Blogs = () => {
                     </p>
                 </div>
                 <div
-                    className={'flex justify-center'}>
+                    className={'blog-layout-container'}>
                     <div
-                        className={'grid place-content-center grid-cols-2 gap-5'}>
+                        className={'blog-layout'}>
 
                         {/* BLOG CARD 1 */}
                         <div

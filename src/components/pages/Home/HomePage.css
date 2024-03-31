@@ -34,61 +34,6 @@
 }
 
 
-/* FEATURES */
-.features-grid {
-    @apply grid place-content-center text-center
-}
 
-.features-title {
-    @apply text-4xl font-bold pb-8
-}
 
-.features-layout {
-    @apply grid grid-cols-2 text-start pt-20 gap-8
-}
 
-.card-layout {
-    @apply bg-light-lime p-8 rounded-lg border-lime-green border-[1px]
-}
-
-.card-icon-title {
-    @apply flex items-center gap-3 pb-5
-}
-
-.card-title {
-    @apply font-bold text-xl
-}
-
-/* BLOGS */
-
-.blog-grid {
-    @apply grid place-content-center grid-cols-2 gap-10
-}
-
-.blog-card {
-    @apply grid place-content-center align-middle w-[783px] bg-light-lime border-blog-border border-[1px] rounded-lg p-5 pt-10
-}
-
-.card-name, .card-text {
-    @apply py-5
-}
-
-.blog-card-title {
-    @apply font-bold text-[26px]
-}
-
-.avatar-layout {
-    @apply flex items-center justify-between gap-5 p-4 rounded-lg bg-background
-}
-
-.blog-avatar-title {
-    @apply font-bold
-}
-
-.icons-layout {
-    @apply flex gap-5
-}
-
-.blog-icons {
-    @apply p-4 rounded-lg border-blog-border bg-light-lime
-}

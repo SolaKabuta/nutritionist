@@ -1,3 +1,5 @@
+import './Features.css'
+
 import flowerIcon from '../../../assets/icons/flower.svg'
 import HatIcon from '../../../assets/icons/hat.svg'
 const Features = () => {
