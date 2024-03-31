@@ -4,7 +4,7 @@ const Features = () => {
     return (
         <>
             <div
-                className={'main'}>
+                className={'relative -top-96'}>
                 <div
                     className={'features-grid'}>
                     <h2

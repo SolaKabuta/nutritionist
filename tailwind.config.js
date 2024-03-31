@@ -13,6 +13,7 @@ export default {
         'border-green': '#E5F5BD',
         'footer-green': '#2C5446',
         'numbers-green': '#468671',
+        'blog-border': '#EEF8D3',
       }
     },
   },
