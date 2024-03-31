@@ -1,21 +1,23 @@
 import './Testtimonials.css'
 
-import text from '../../../assets/icons/text.svg'
-import indicators from '../../../assets/icons/Indicators.svg'
-import left from '../../../assets/icons/left_arrow.svg'
-import right from '../../../assets/icons/right_arrow.svg'
-import Jen from '../../../assets/images/jen.jpg'
-import rob from '../../../assets/images/rob.jpg'
-import emily from '../../../assets/images/emily.jpg'
+import text from '../../../../assets/icons/text.svg'
+import indicators from '../../../../assets/icons/Indicators.svg'
+import left from '../../../../assets/icons/left_arrow.svg'
+import right from '../../../../assets/icons/right_arrow.svg'
+import Jen from '../../../../assets/images/jen.jpg'
+import rob from '../../../../assets/images/rob.jpg'
+import emily from '../../../../assets/images/emily.jpg'
 
 
 const Testimonials = () => {
     return (
         <>
-            <div>
+            <div
+                className={'pt-44'}>
                 <div
-                    className={'features-grid pt-20'}>
+                    className={'features-grid'}>
                     <h2
+                        id={'testimonials'}
                         className={'features-title'}>
                         Our Testimonials
                     </h2>
@@ -103,7 +105,9 @@ const Testimonials = () => {
                         className={'nav-bg'}
                         src={left} alt=""/>
                     <img src={indicators} alt=""/>
-                    <img src={right} alt=""/>
+                    <img
+                        className={'nav-bg'}
+                        src={right} alt=""/>
                 </div>
             </div>
         </>

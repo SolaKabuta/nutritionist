@@ -1,12 +1,12 @@
 import './Features.css'
 
-import flowerIcon from '../../../assets/icons/flower.svg'
-import HatIcon from '../../../assets/icons/hat.svg'
+import flowerIcon from '../../../../assets/icons/flower.svg'
+import HatIcon from '../../../../assets/icons/hat.svg'
 const Features = () => {
     return (
         <>
             <div
-                className={'relative -top-[90px]'}>
+                className={'relative '}>
                 <div
                     className={'features-grid'}>
                     <h2

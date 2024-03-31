@@ -1,6 +1,7 @@
 import './Navbar.css'
 import logo from '../../../assets/logo/Logo.svg'
-
+import icon from '../../../assets/icons/cricket.ball.fill.svg'
+import arrow from '../../../assets/icons/nav_arrow.svg'
 
 const Navbar = () => {
     const handleClick = () => {
@@ -10,6 +11,21 @@ const Navbar = () => {
     return (
         <>
             <div>
+                <div
+                    className={'upper-nav'}>
+                    <div
+                        className={'nav-pattern'}>
+                        <img
+                            className={'pr-2'}
+                            src={icon} alt=""/>
+                        <p>
+                            Join Our Personalized Nutrition Demo For Free
+                        </p>
+                        <img
+                            className={'pl-4'}
+                            src={arrow} alt=""/>
+                    </div>
+                </div>
                 <nav>
                     {/*LOGO*/}
                     <div>

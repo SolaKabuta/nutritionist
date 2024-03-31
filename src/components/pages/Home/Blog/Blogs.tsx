@@ -1,19 +1,19 @@
 import './Blogs.css'
 
-import card1 from '../../../assets/images/blog_card_1.jpg'
-import avatar from '../../../assets/images/blog_avatar.jpg'
-import heart from '../../../assets/icons/heart.svg'
-import fav from '../../../assets/icons/fav.svg'
+import card1 from '../../../../assets/images/blog_card_1.jpg'
+import avatar from '../../../../assets/images/blog_avatar.jpg'
+import heart from '../../../../assets/icons/heart.svg'
+import fav from '../../../../assets/icons/fav.svg'
 
 
-import card2 from '../../../assets/images/blog_card_2.jpg'
-import avatar2 from '../../../assets/images/blog_avatar_2.jpg'
+import card2 from '../../../../assets/images/blog_card_2.jpg'
+import avatar2 from '../../../../assets/images/blog_avatar_2.jpg'
 
-import card3 from '../../../assets/images/blog_card_3.jpg'
-import avatar3 from '../../../assets/images/blog_avatar_3.jpg'
+import card3 from '../../../../assets/images/blog_card_3.jpg'
+import avatar3 from '../../../../assets/images/blog_avatar_3.jpg'
 
-import card4 from '../../../assets/images/blog_card_4.jpg'
-import avatar4 from '../../../assets/images/blog_avatar_4.jpg'
+import card4 from '../../../../assets/images/blog_card_4.jpg'
+import avatar4 from '../../../../assets/images/blog_avatar_4.jpg'
 
 // import { useState } from 'react';
 
@@ -27,8 +27,7 @@ const Blogs = () => {
     return (
         <>
             <div
-                className={'pt-20'}>
-
+                className={'pt-44'}>
                 <div
                     className={'features-grid'}>
                     <h2

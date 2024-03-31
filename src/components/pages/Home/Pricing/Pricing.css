@@ -1,0 +1,39 @@
+/* PRICING */
+
+
+
+.buttons-layout {
+    @apply flex justify-center
+}
+
+.buttons-layout div {
+    @apply border-blog-border border-[1px] rounded-lg p-3 mb-5
+}
+
+.monthly-btn {
+    @apply bg-dark-green text-white mr-5
+}
+
+.yearly-btn {
+    @apply bg-background text-black font-bold
+}
+
+.price-layout {
+    @apply flex justify-center gap-10 pt-10
+}
+
+.price-card {
+    @apply bg-light-lime border-blog-border p-10 rounded-lg border-[1px] w-[512px]
+}
+
+.basic-text, .price {
+    @apply py-5
+}
+
+.price-tag {
+    @apply text-dark-green text-5xl font-bold
+}
+
+.choose-plan {
+    @apply bg-lime-green w-[412px] font-bold mt-2 ease-in-out duration-500 hover:outline-0 hover:bg-dark-green hover:text-lime-green
+}

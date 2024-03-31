@@ -1,4 +1,13 @@
 /*NAV*/
+
+.upper-nav {
+    @apply w-screen bg-dark-green flex justify-center
+}
+
+.nav-pattern {
+    @apply flex justify-center bg-footer-green text-white p-2 font-medium w-[80%] rounded-lg mt-5
+}
+
 nav {
     @apply bg-dark-green w-screen px-44 flex justify-between items-center gap-56
 }
@@ -7,7 +16,7 @@ nav {
 }
 
 ul {
-    @apply bg-dark-green flex justify-end gap-8 p-5 font-bold
+    @apply bg-dark-green flex justify-end gap-8 p-5 font-semibold
 }
 
 .nav-btn {

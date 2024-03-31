@@ -13,7 +13,7 @@
 }
 
 .nav-layout {
-    @apply flex items-center justify-center gap-16 pt-20
+    @apply flex items-center justify-center gap-8 pt-20
 }
 
 .nav-bg {

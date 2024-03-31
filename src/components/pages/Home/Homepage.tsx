@@ -1,10 +1,11 @@
 import './HomePage.css'
 import banner from '../../../assets/images/banner.jpg'
 import avatars from '../../../assets/images/Container.jpg'
-import Features from "./Features.tsx";
-import Blogs from "./Blogs.tsx";
-import Testimonials from "./Testimonials.tsx";
-// import Footer from '../../UI/Footer/Footer.tsx'
+import Features from "./Features/Features.tsx";
+import Blogs from "./Blog/Blogs.tsx";
+import Testimonials from "./Testimonials/Testimonials.tsx";
+import Pricing from "./Pricing/Pricing.tsx";
+import Footer from '../../UI/Footer/Footer.tsx'
 // import { useState } from 'react'
 
 
@@ -50,7 +51,7 @@ const Homepage = () => {
                         <div>
                             <a
                                 className={'nav-btn mr-5'}
-                                href="">
+                                href={'#pricing'}>
                                 Get Starter Today
                             </a>
                             <a
@@ -63,10 +64,12 @@ const Homepage = () => {
                                 <img
                                     src={avatars}
                                     alt="Happy Customers"/>
-                                <p>
+                                <a
+                                    href={'#testimonials'}
+                                    className={'customers'}>
                                     <span className={'numbers'}>430+ </span>
                                     Happy Customers
-                                </p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -81,8 +84,12 @@ const Homepage = () => {
 
             {/* TESTIMONIALS */}
             <Testimonials />
+
+            {/* PRICING */}
+            <Pricing/>
+
             {/* FOOTER */}
-            {/*<Footer/>*/}
+            <Footer/>
         </>
     );
 };

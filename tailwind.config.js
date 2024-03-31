@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'nav-pattern': "url('../../../assets/images/nav_pattern.jpg')",
+      },
       colors: {
         'background': '#FAFDF2',
         'dark-green': '#1A3129',
