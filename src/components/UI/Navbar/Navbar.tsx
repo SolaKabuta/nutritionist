@@ -1,6 +1,13 @@
 import './Navbar.css'
 import logo from '../../../assets/logo/Logo.svg'
+
+
+
 const Navbar = () => {
+    const handleClick = () => {
+        alert('Message sent')
+    };
+
     return (
         <>
             <div>
@@ -43,7 +50,7 @@ const Navbar = () => {
                         </li>
                         {/*BTN CONTACT*/}
                         <li>
-                            <a className={'nav-btn'}
+                            <a onClick={handleClick} className={'nav-btn'}
                                href="#Contact">Contact Us
                             </a>
                         </li>

@@ -1,6 +1,6 @@
 // import { useState } from 'react'
-import Navbar from './components/UI/Navbar.tsx';
-import Homepage from "./components/pages/Homepage.tsx";
+import Navbar from './components/UI/Navbar/Navbar.tsx';
+import Homepage from "./components/pages/Home/Homepage.tsx";
 
 function App() {
   // const [count, setCount] = useState(0)

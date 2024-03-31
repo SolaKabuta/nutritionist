@@ -1,4 +1,4 @@
-/*BODY*/
+/* BANNER */
 .main {
     @apply w-screen h-screen px-2 py-2
 }
@@ -22,7 +22,7 @@
 }
 
 .btn-2 {
-    @apply bg-light-lime border-border-green border-2 py-4 px-8 rounded-lg font-bold
+    @apply bg-light-lime border-border-green border-2 py-4 px-8 rounded-lg font-bold hover:bg-dark-green
 }
 
 .avatars {
@@ -31,4 +31,14 @@
 
 .numbers {
     @apply text-numbers-green
+}
+
+
+/* FEATURES */
+.features-grid {
+    @apply grid place-content-center text-center
+}
+
+.features-title {
+    @apply text-4xl font-bold pb-8
 }

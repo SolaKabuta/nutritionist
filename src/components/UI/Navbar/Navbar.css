@@ -1,6 +1,6 @@
 /*NAV*/
 nav {
-    @apply bg-dark-green w-screen px-44 flex justify-between gap-56
+    @apply bg-dark-green w-screen px-44 flex justify-between items-center gap-56
 }
 .logo-nav {
     @apply py-5
@@ -11,5 +11,5 @@ ul {
 }
 
 .nav-btn {
-    @apply bg-lime-green text-black p-4 rounded-lg font-bold hover:bg-light-lime
+    @apply bg-lime-green text-black p-4 rounded-lg font-bold hover:bg-dark-green hover:border-lime-green
 }
