@@ -10,6 +10,3 @@ ul {
     @apply bg-dark-green flex justify-end gap-8 p-5 font-bold
 }
 
-.nav-btn {
-    @apply bg-lime-green text-black p-4 rounded-lg font-bold hover:bg-dark-green hover:border-lime-green
-}
