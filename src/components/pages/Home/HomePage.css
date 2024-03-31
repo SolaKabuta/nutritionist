@@ -62,17 +62,25 @@
 /* BLOGS */
 
 .blog-grid {
-    @apply grid place-content-center
+    @apply grid place-content-center grid-cols-2 gap-10
 }
 
 .blog-card {
-    @apply bg-light-lime border-blog-border border-[1px] p-10 rounded-lg
+    @apply bg-light-lime border-blog-border border-[1px] p-10 rounded-lg content-center
 }
 
-.card-name {
+.card-name, .card-text {
     @apply py-5
 }
 
-.card-text {
-    @apply py-5
+.blog-card-title {
+    @apply font-bold text-[26px]
+}
+
+.blog-avatar-title {
+    @apply font-bold
+}
+
+.blog-icons {
+    @apply p-4  rounded-lg border-blog-border bg-light-lime
 }
