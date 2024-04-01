@@ -13,7 +13,7 @@
 }
 
 .card-name, .card-text {
-    @apply py-5
+    @apply py-5 font-medium
 }
 
 .blog-card-title {
