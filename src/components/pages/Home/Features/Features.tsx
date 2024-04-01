@@ -30,7 +30,7 @@ const Features = () => {
                                 <div className="card-icon-title">
                                     <img src={c.img[0]} alt="flower icon"/>
                                     <p className={"card-title"}>
-                                        {c.title[0]}
+                                        {c.title}
                                     </p>
                                 </div>
                                 <p>
@@ -57,17 +57,17 @@ export default Features;
 const card = [
     {
         title: ['Personalized Nutrition Plans'],
-        text: ['Receive a tailored nutrition plan designed specifically for your body and goals. Our certified nutritionists will consider your unique needs, dietary preferences, and health conditions to create a plan that suits you best.'],
+        text: ['Receive a tailored nutrition plan designed specifically for your body and goals. Our certified nutritionists will consider your unique needs, dietary preferences and health conditions to create a plan that suits you best.'],
         img: [flowerIcon]
     },
     {
         title: ['Guidance from Certified Nutritionists'],
-        text: ['Our team of experienced and certified nutritionists, will provide professional guidance and support throughout your journey. They will answer your questions, address your concerns, and keep you motivated as you work towards your goals.'],
+        text: ['Our team of experienced and certified nutritionists, will provide professional guidance and support throughout your journey. They will answer your questions address your concerns, and keep you motivated as you work towards your goals.'],
         img: [hatIcon]
     },
     {
         title: ['Food Tracking and Analysis'],
-        text: ['Effortlessly track your food intake using our user-friendly app. Our nutritionists will analyze your data to provide insights into your eating habits, help you identify areas for improvement, and make personalized recommendations.'],
+        text: ['Effortlessly track your food intake using our user-friendly app. Our nutritionists will analyze your data to provide insights into your eating habits, help you identify areas for improvement and make personalized recommendations.'],
         img: [cutlery]
     },
     {
@@ -77,7 +77,7 @@ const card = [
     },
     {
         title: ['Lifestyle and Behavior Coaching'],
-        text: ['Achieving sustainable results requires more than just a diet plan. Our nutritionists will work with you to develop healthy habits, address emotional eating, and provide strategies to overcome obstacles along the way.'],
+        text: ['Achieving sustainable results requires more than just a diet plan. Our nutritionists will work with you to develop healthy habits, address emotional eating and provide strategies to overcome obstacles along the way.'],
         img: [weight]
     },
     {

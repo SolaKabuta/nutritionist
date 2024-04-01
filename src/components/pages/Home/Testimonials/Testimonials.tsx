@@ -29,73 +29,23 @@ const Testimonials = () => {
                 <div
                     className={'testi-layout'}>
                     {/* CARD-1 */}
-                    <div
-                        className={'testi-card'}>
-                        <div
-                            className={'p-10'}>
-                            <img src={text} alt=""/>
-                            <p
-                                className={'pt-10'}>
-                                I can't thank Nutritionist enough for their personalized <br/>
-                                nutrition coaching. It has completely transformed my <br/>
-                                approach to food and helped me shed those extra <br/>
-                                pounds. Highly recommended!
-                            </p>
+                    {card.map((c) => (
+                        <div className="testi-card">
+                            <div className="p-10">
+                                <img src={c.img[0]} alt=""/>
+                                <p className="p-10">
+                                    {c.text}
+                                </p>
+                            </div>
+                            <div className="Jen">
+                                <img src={c.img[1]} alt=""/>
+                                <p>
+                                    {c.title}
+                                </p>
+                            </div>
                         </div>
-                        <div
-                            className={'Jen'}>
-                            <img src={Jen} alt=""/>
-                            <p>
-                                Jennifer Anderson
-                            </p>
-                        </div>
-                    </div>
+                    ))}
 
-                    {/* CARD-2 */}
-                    <div
-                        className={'testi-card'}>
-                        <div
-                            className={'p-10'}>
-                            <img src={text} alt=""/>
-                            <p
-                                className={'pt-10'}>
-                                Nutritionist has been a game-changer for me. The <br/>
-                                expert guidance and support I received from their <br/>
-                                team made my weight loss journey so much easier. <br/>
-                                Thank you!
-                            </p>
-                        </div>
-                        <div
-                            className={'Jen'}>
-                            <img src={rob} alt=""/>
-                            <p>
-                                Robert Johnson
-                            </p>
-                        </div>
-                    </div>
-
-                    {/* CARD-3 */}
-                    <div
-                        className={'testi-card'}>
-                        <div
-                            className={'p-10'}>
-                            <img src={text} alt=""/>
-                            <p
-                                className={'pt-10'}>
-                                I had struggled with my weight for years until I found <br/>
-                                Nutritionist. Their personalized approach and tailored <br/>
-                                nutrition plan made all the difference. I've never felt <br/>
-                                better!
-                            </p>
-                        </div>
-                        <div
-                            className={'Jen'}>
-                            <img src={emily} alt=""/>
-                            <p>
-                                Emily Davis
-                            </p>
-                        </div>
-                    </div>
 
                 </div>
                     {/* SLIDER-BUTTONS */}
@@ -115,3 +65,21 @@ const Testimonials = () => {
 };
 
 export default Testimonials;
+
+const card = [
+    {
+        img: [text, Jen],
+        text: 'I can\'t thank Nutritionist enough for their personalized nutrition coaching. It has completely transformed my approach to food and helped me shed those extra pounds. Highly recommended!',
+        title: 'Jennifer Anderson'
+    },
+    {
+        img: [text, rob],
+        text: 'Nutritionist has been a game-changer for me. The expert guidance and support I received from their team made my weight loss journey so much easier. Thank you!',
+        title: 'Robert Johnson'
+    },
+    {
+        img: [text, emily],
+        text: 'I had struggled with my weight for years until I found Nutritionist. Their personalized approach and tailored nutrition plan made all the difference. I\'ve never felt better!',
+        title: 'Emily Davis'
+    },
+]
