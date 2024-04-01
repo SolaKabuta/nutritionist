@@ -42,89 +42,30 @@ const Pricing = () => {
                     className={'price-layout'}>
 
                     {/* PRICE CARD 1 */}
-                    <div
-                        className={'price-card'}>
-                        <p
-                            className={'font-bold text-3xl'}>
-                            Basic Plan
-                        </p>
-                        <p>
-                            Up to 50% off on Yearly Plan
-                        </p>
-                        <p
-                            className={'basic-text'}>
-                            Get started on your health journey with our Basic <br/>
-                            Plan. It includes personalized nutrition coaching, <br/>
-                            access to our app, meal planning assistance, and <br/>
-                            email support.
-                        </p>
-                        <p
-                            className={'price'}>
-                            <span
-                                className={'price-tag'}>$49</span> /month
-                        </p>
-                        <div>
-                            <button
-                                className={'choose-plan'}>Choose Plan</button>
+                    {card.map((c) => (
+                        <div className="price-card">
+                            <p className="font-bold text-3xl">
+                                {c.title}
+                            </p>
+                            <p>
+                                {c.text[0]}
+                            </p>
+                            <p className="basic-text">
+                                {c.text[1]}
+                            </p>
+                            <p className="price">
+                                <span className="price-tag">
+                                    {c.price}
+                                </span>
+                                /month
+                            </p>
+                            <div>
+                                <button className="choose-plan">
+                                    {c.button}
+                                </button>
+                            </div>
                         </div>
-                    </div>
-
-                    {/* PRICE CARD 2 */}
-                    <div
-                        className={'price-card'}>
-                        <p
-                            className={'font-bold text-3xl'}>
-                            Premium Plan
-                        </p>
-                        <p>
-                            Up to 50% off on Yearly Plan
-                        </p>
-                        <p
-                            className={'basic-text'}>
-                            Upgrade to our Premium Plan for enhanced <br/>
-                            features. In addition to the Basic Plan, you'll receive <br/>
-                            video consultations, priority support, and <br/>
-                            personalized recipe recommendations.
-                        </p>
-                        <p
-                            className={'price'}>
-                            <span
-                                className={'price-tag'}>$79</span> /month
-                        </p>
-                        <div>
-                            <button
-                                className={'choose-plan'}>Choose Plan</button>
-                        </div>
-                    </div>
-
-                    {/* PRICE CARD 3 */}
-                    <div
-                        className={'price-card'}>
-                        <p
-                            className={'font-bold text-3xl'}>
-                            Ultimate Plan
-                        </p>
-                        <p>
-                            Up to 50% off on Yearly Plan
-                        </p>
-                        <p
-                            className={'basic-text'}>
-                            Experience the full benefits of personalized nutrition <br/>
-                            coaching with our Ultimate Plan. Enjoy all the <br/>
-                            features of the Premium Plan, along with 24/7 chat <br/>
-                            support and exclusive workshops.
-                        </p>
-                        <p
-                            className={'price'}>
-                            <span
-                                className={'price-tag'}>$99</span> /month
-                        </p>
-                        <div>
-                            <button
-                                className={'choose-plan'}>Choose Plan
-                            </button>
-                        </div>
-                    </div>
+                    ))}
                 </div>
             </div>
         </>
@@ -132,3 +73,24 @@ const Pricing = () => {
 };
 
 export default Pricing;
+
+const card = [
+    {
+        title: 'Basic Plan',
+        text: ['Up to 50% off on Yearly Plan', 'Get started on your health journey with our Basic Plan. It includes personalized nutrition coaching, access to our app, meal planning assistance, and email support.'],
+        price: '$49',
+        button: 'Choose Plan'
+    },
+    {
+        title: 'Premium Plan',
+        text: ['Up to 50% off on Yearly Plan', 'Upgrade to our Premium Plan for enhanced features. In addition to the Basic Plan, you\'ll receive video consultations, priority support, and personalized recipe recommendations.'],
+        price: '$79',
+        button: 'Choose Plan'
+    },
+    {
+        title: 'Basic Plan',
+        text: ['Up to 50% off on Yearly Plan', 'Experience the full benefits of personalized nutrition coaching with our Ultimate Plan. Enjoy all the features of the Premium Plan, along with 24/7 chat support and exclusive workshops.'],
+        price: '$99',
+        button: 'Choose Plan'
+    }
+]
