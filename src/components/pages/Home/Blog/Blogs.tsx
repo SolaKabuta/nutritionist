@@ -21,7 +21,7 @@ import avatar4 from '../../../../assets/images/blog_avatar_4.jpg'
 const Blogs = () => {
 
     const handleClick = () => {
-        alert('I like it too baby!')
+        alert('I like it too baby!❤️')
     }
 
     return (
@@ -36,7 +36,8 @@ const Blogs = () => {
                     </h2>
                     <p
                         className={'pb-20'}>
-                        Our blog is a treasure trove of informative and engaging articles written by our team of nutritionists, dietitians, and wellness <br/>
+                        Our blog is a treasure trove of informative and engaging articles written by our team of
+                        nutritionists, dietitians, and wellness <br/>
                         experts. Here's what you can expect from our blog.
                     </p>
                 </div>
@@ -44,209 +45,58 @@ const Blogs = () => {
                     className={'blog-layout-container'}>
                     <div
                         className={'blog-layout'}>
-
-                        {/* BLOG CARD 1 */}
-                        <div
-                            className={'blog-card'}>
-                            <img src={card1} alt=""/>
-                            <p
-                                className={'card-name'}>
-                                Weight Loss
-                            </p>
-                            <p
-                                className={'blog-card-title'}>
-                                The Benefits of Hydratation for Weight Loss
-                            </p>
-                            <p
-                                className={'card-text'}>
-                                Discover how staying hydrated can support your weight loss goals and improve overall
-                                health
-                            </p>
-                            {/* CARD AVATAR LAYOUT */}
+                        {card.map((c) => (
+                            // CARD
                             <div
-                                className={'avatar-layout'}>
+                                className={'blog-card'}>
+                                <img src={c.img[0]} alt=""/>
+                                <p
+                                    className={'card-name'}>
+                                    {c.name}
+                                </p>
+                                <p
+                                    className={'blog-card-title'}>
+                                    {c.title[0]}
+                                </p>
+                                <p
+                                    className={'card-text'}>
+                                    {c.text[0]}
+                                </p>
+                                {/* CARD AVATAR LAYOUT */}
                                 <div
-                                    className={'flex items-center gap-5'}>
-                                    <div>
-                                        <img src={avatar} alt=""/>
-                                    </div>
-                                    <div>
-                                        <p
-                                            className={'blog-avatar-title'}>
-                                            Emily Johnson
-                                        </p>
-                                        <p>
-                                            23 May 2023 - 5 min read
-                                        </p>
-                                    </div>
-                                </div>
-                                {/* ICONS LAYOUT */}
-                                <div
-                                    className={'icons-layout'}>
+                                    className={'avatar-layout'}>
                                     <div
-                                        onClick={handleClick}
-                                        className={'blog-icons'}>
-                                        <img src={heart} alt=""/>
+                                        className={'flex items-center gap-5'}>
+                                        <img src={c.img[1]} alt=""/>
+                                        <div>
+                                            <p
+                                                className={'blog-avatar-title'}>
+                                                {c.title[1]}
+                                            </p>
+                                            <p>
+                                                {c.text[1]}
+                                            </p>
+                                        </div>
                                     </div>
                                     <div
-                                        className={'blog-icons'}>
-                                        <img src={fav} alt=""/>
+                                        className={'icons-layout'}>
+                                        <div className="blog-icons">
+                                            <a
+                                                onClick={handleClick}
+                                                href="">
+                                                <img src={c.img[2]} alt=""/>
+                                            </a>
+                                        </div>
+                                        <div className="blog-icons">
+                                            <a href="">
+                                                <img src={c.img[3]} alt=""/>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        {/* BLOG CARD 2*/}
-                        <div
-                            className={'blog-card'}>
-                            <img src={card2} alt=""/>
-                            <p
-                                className={'card-name'}>
-                                Mindful Eating
-                            </p>
-                            <p
-                                className={'blog-card-title'}>
-                                Cultivating a Healthy Relationship with Food
-                            </p>
-                            <p
-                                className={'card-text'}>
-                                Learn how practicing mindful eating can help you develop a healthier relationship with <br/>
-                                food and improve your overall well-being.
-                            </p>
-                            {/* CARD AVATAR LAYOUT */}
-                            <div
-                                className={'avatar-layout'}>
-                                <div
-                                    className={'flex items-center gap-5'}>
-                                    <div>
-                                        <img src={avatar2} alt=""/>
-                                    </div>
-                                    <div>
-                                        <p
-                                            className={'blog-avatar-title'}>
-                                            Sarah Hondermarck
-                                        </p>
-                                        <p>
-                                            23 May 2023 - 5 min read
-                                        </p>
-                                    </div>
-                                </div>
-                                {/* ICONS LAYOUT */}
-                                <div
-                                    className={'icons-layout'}>
-                                    <div
-                                        onClick={handleClick}
-                                        className={'blog-icons'}>
-                                        <img src={heart} alt=""/>
-                                    </div>
-                                    <div
-                                        className={'blog-icons'}>
-                                        <img src={fav} alt=""/>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        {/* BLOG CARD */}
-                        <div
-                            className={'blog-card'}>
-                            <img src={card3} alt=""/>
-                            <p
-                                className={'card-name'}>
-                                Understanding Macronutrients
-                            </p>
-                            <p
-                                className={'blog-card-title'}>
-                                Carbohydrates, Proteins, and Fats
-                            </p>
-                            <p
-                                className={'card-text'}>
-                                Get a comprehensive understanding of macronutrients and their role in your diet for <br/>
-                                optimal health and weight management.
-                            </p>
-                            {/* CARD AVATAR LAYOUT */}
-                            <div
-                                className={'avatar-layout'}>
-                                <div
-                                    className={'flex items-center gap-5'}>
-                                    <div>
-                                        <img src={avatar3} alt=""/>
-                                    </div>
-                                    <div>
-                                        <p
-                                            className={'blog-avatar-title'}>
-                                            Mark Wilson
-                                        </p>
-                                        <p>
-                                            23 May 2023 - 5 min read
-                                        </p>
-                                    </div>
-                                </div>
-                                {/* ICONS LAYOUT */}
-                                <div
-                                    className={'icons-layout'}>
-                                    <div
-                                        onClick={handleClick}
-                                        className={'blog-icons'}>
-                                        <img src={heart} alt=""/>
-                                    </div>
-                                    <div
-                                        className={'blog-icons'}>
-                                        <img src={fav} alt=""/>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        {/* BLOG CARD */}
-                        <div
-                            className={'blog-card'}>
-                            <img src={card4} alt=""/>
-                            <p
-                                className={'card-name'}>
-                                Healthy Snacks on the Go
-                            </p>
-                            <p
-                                className={'blog-card-title'}>
-                                Quick and Nutritious Options
-                            </p>
-                            <p
-                                className={'card-text'}>
-                                Explore a variety of convenient and healthy snack ideas to keep you fueled throughout <br/>
-                                the day.
-                            </p>
-                            {/* CARD AVATAR LAYOUT */}
-                            <div
-                                className={'avatar-layout'}>
-                                <div
-                                    className={'flex items-center gap-5'}>
-                                    <div>
-                                        <img src={avatar4} alt=""/>
-                                    </div>
-                                    <div>
-                                        <p
-                                            className={'blog-avatar-title'}>
-                                            Sam Thomas
-                                        </p>
-                                        <p>
-                                            23 May 2023 - 5 min read
-                                        </p>
-                                    </div>
-                                </div>
-                                {/* ICONS LAYOUT */}
-                                <div
-                                    className={'icons-layout'}>
-                                    <div
-                                        onClick={handleClick}
-                                        className={'blog-icons'}>
-                                        <img src={heart} alt=""/>
-                                    </div>
-                                    <div
-                                        className={'blog-icons'}>
-                                        <img src={fav} alt=""/>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        ))}
                     </div>
-
                 </div>
             </div>
         </>
@@ -254,3 +104,32 @@ const Blogs = () => {
 };
 
 export default Blogs;
+
+const card = [
+    {
+        img: [card1, avatar, heart, fav],
+        name: 'Weight Loss',
+        title: ['The Benefits of Hydratation for Weight Loss', 'Emily Johsnon'],
+        text: ['Discover how staying hydrated can support your weight loss goals and improve overall health', '23 May 2023 - 5 min read']
+    },
+    {
+        img: [card2, avatar2, heart, fav],
+        name: 'Mindful Eating',
+        title: ['Cultivating a Healthy Relationship with Food', 'Sarah Hondermarck'],
+        text: ['Learn how practicing mindful eating can help you develop a healthier relationship with food and improve your overall well-being.', '23 May 2023 - 5 min read'],
+    },
+    {
+        img: [card3, avatar3, heart, fav],
+        name: 'Understanding Macronutrients',
+        title: ['Cultivating a Healthy Relationship with Food', 'Mark Wilson'],
+        text: ['Get a comprehensive understanding of macronutrients and their role in your diet for optimal health and weight management.', '23 May 2023 - 5 min read'],
+    },
+    {
+        img: [card4, avatar4, heart, fav],
+        name: 'Healthy Snacks on the Go',
+        title: ['Quick and Nutritious Options', 'Sarah Hondermarck'],
+        text: ['Explore a variety of convenient and healthy snack ideas to keep you fueled throughout the day.', '23 May 2023 - 5 min read'],
+    }
+]
+
+

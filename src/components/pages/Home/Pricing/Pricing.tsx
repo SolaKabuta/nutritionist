@@ -3,7 +3,7 @@ const Pricing = () => {
     return (
         <>
             <div
-                className={'py-20'}>
+                className={'py-20 pt-40'}>
                 <div
                     className={'features-grid '}>
                     <h2
@@ -125,7 +125,6 @@ const Pricing = () => {
                             </button>
                         </div>
                     </div>
-
                 </div>
             </div>
         </>

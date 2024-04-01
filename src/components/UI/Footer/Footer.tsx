@@ -9,11 +9,13 @@ const Footer = () => {
                     className={'nav-footer'}>
                     {/*LOGO*/}
                     <div>
-                        <img
-                            className={'logo-nav'}
-                            src={logo}
-                            alt="Nutritionist logo"
-                            loading={'lazy'}/>
+                        <a href="#">
+                            <img
+                                className={'logo-nav'}
+                                src={logo}
+                                alt="Nutritionist logo"
+                                loading={'lazy'}/>
+                        </a>
                     </div>
                     <div>
                         <ul>
