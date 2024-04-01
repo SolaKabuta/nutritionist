@@ -94,3 +94,24 @@ const card = [
         button: 'Choose Plan'
     }
 ]
+
+const cardYearly = [
+    {
+        title: 'Basic Plan',
+        text: ['Up to 50% off on Yearly Plan', 'Get started on your health journey with our Basic Plan. It includes personalized nutrition coaching, access to our app, meal planning assistance, and email support.'],
+        price: '$294',
+        button: 'Choose Plan'
+    },
+    {
+        title: 'Basic Plan',
+        text: ['Up to 50% off on Yearly Plan', 'Get started on your health journey with our Basic Plan. It includes personalized nutrition coaching, access to our app, meal planning assistance, and email support.'],
+        price: '$474',
+        button: 'Choose Plan'
+    },
+    {
+        title: 'Basic Plan',
+        text: ['Up to 50% off on Yearly Plan', 'Get started on your health journey with our Basic Plan. It includes personalized nutrition coaching, access to our app, meal planning assistance, and email support.'],
+        price: '$594',
+        button: 'Choose Plan'
+    },
+]

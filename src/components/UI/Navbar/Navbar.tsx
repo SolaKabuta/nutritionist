@@ -27,7 +27,8 @@ const Navbar = () => {
                     </div>
                 </div>
                 <nav>
-                    {/*LOGO*/}
+
+                    {/* LOGO */}
                     <div>
                         <img
                             className={'logo-nav'}
@@ -36,7 +37,8 @@ const Navbar = () => {
                             loading={'lazy'}/>
                     </div>
                     <ul>
-                        {/*NAV*/}
+
+                        {/* MENU */}
                         <li>
                             <a href="#">Home
                             </a>
@@ -63,7 +65,8 @@ const Navbar = () => {
                             <a href="#Blog">Blog
                             </a>
                         </li>
-                        {/*BTN CONTACT*/}
+
+                        {/* BTN CONTACT */}
                         <li>
                             <a onClick={handleClick} className={'nav-btn'}
                                href="#Contact">Contact Us
@@ -77,3 +80,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
