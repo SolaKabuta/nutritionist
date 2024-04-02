@@ -6,6 +6,11 @@ import Blogs from "./Blog/Blogs.tsx";
 import Testimonials from "./Testimonials/Testimonials.tsx";
 import Pricing from "./Pricing/Pricing.tsx";
 import Footer from '../../UI/Footer/Footer.tsx'
+
+// MOBILE
+import bannerAvatars from '../../../assets/images/banner_avatars.svg'
+
+
 // import { useState } from 'react'
 
 
@@ -19,10 +24,25 @@ const Homepage = () => {
                     className={'flexbox'}>
                     <div>
                         <img
+                            id={'banner'}
                             src={banner}
                             alt="banner image"/>
                     </div>
-                    <div>
+                    <section
+                        className={'mobile-layout'}>
+                        {/* MOBILE */}
+                        <div
+                            className={'avatars-mobile'}>
+                            <img
+                                src={bannerAvatars}
+                                alt="Happy Customers"/>
+                            <a
+                                href={'#testimonials'}
+                                className={'customers'}>
+                                <span className={'numbers'}>430+ </span>
+                                Happy Customers
+                            </a>
+                        </div>
                         <p
                             className={'transform'}>
                             Transform Your ❤️ Health with
@@ -40,9 +60,11 @@ const Homepage = () => {
                         </h1>
                         <p
                             className={'main-text'}>
-                            Welcome to Nutritionist, your partner in achieving optimal health through personalized nutrition <br/>
+                            Welcome to Nutritionist, your partner in achieving optimal health through personalized
+                            nutrition <br/>
                             coaching.
-                            Our certified nutritionists are here to guide you on your weight loss journey, providing <br/>
+                            Our certified nutritionists are here to guide you on your weight loss journey,
+                            providing <br/>
                             customized plans and ongoing support.
                             Start your transformation today and experience the <br/>
                             power of personalized nutrition coaching.
@@ -73,7 +95,7 @@ const Homepage = () => {
                                 </a>
                             </div>
                         </div>
-                    </div>
+                    </section>
                 </div>
             </div>
 
@@ -84,7 +106,7 @@ const Homepage = () => {
             <Blogs/>
 
             {/* TESTIMONIALS */}
-            <Testimonials />
+            <Testimonials/>
 
             {/* PRICING */}
             <Pricing/>

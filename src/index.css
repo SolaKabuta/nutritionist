@@ -30,9 +30,12 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
   min-height: 100vh;
   background: #FAFDF2;
+}
+
+body {
+  @apply sm:w-screen
 }
 
 h1 {
@@ -69,3 +72,5 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+

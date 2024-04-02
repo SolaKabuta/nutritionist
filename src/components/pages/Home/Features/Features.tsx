@@ -10,7 +10,7 @@ import React from 'react'
 const Features = () => {
     return (
         <>
-            <div
+            <section
                 className={'relative '}>
                 <div
                     className={'features-grid'}>
@@ -24,7 +24,7 @@ const Features = () => {
                     </p>
 
                     {/* CARDS */}
-                    <div className="features-layout">
+                    <section className="features-layout">
                         {card.map((c) => (
                             <div className="card-layout">
                                 <div className="card-icon-title">
@@ -44,10 +44,10 @@ const Features = () => {
                                 </p>
                             </div>
                         ))}
-                    </div>
+                    </section>
 
                 </div>
-            </div>
+            </section>
         </>
     );
 };

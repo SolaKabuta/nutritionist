@@ -28,7 +28,7 @@ const Blogs = () => {
         <>
             <div
                 className={'pt-44'}>
-                <div
+                <section
                     className={'features-grid'}>
                     <h2
                         className={'features-title'}>
@@ -40,8 +40,8 @@ const Blogs = () => {
                         nutritionists, dietitians, and wellness <br/>
                         experts. Here's what you can expect from our blog.
                     </p>
-                </div>
-                <div
+                </section>
+                <section
                     className={'blog-layout-container'}>
                     <div
                         className={'blog-layout'}>
@@ -62,8 +62,9 @@ const Blogs = () => {
                                     className={'card-text'}>
                                     {c.text[0]}
                                 </p>
+
                                 {/* CARD AVATAR LAYOUT */}
-                                <div
+                                <section
                                     className={'avatar-layout'}>
                                     <div
                                         className={'flex items-center gap-5'}>
@@ -78,6 +79,7 @@ const Blogs = () => {
                                             </p>
                                         </div>
                                     </div>
+
                                     <div
                                         className={'icons-layout'}>
                                         <div className="blog-icons">
@@ -93,11 +95,12 @@ const Blogs = () => {
                                             </a>
                                         </div>
                                     </div>
-                                </div>
+
+                                </section>
                             </div>
                         ))}
                     </div>
-                </div>
+                </section>
             </div>
         </>
     );

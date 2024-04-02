@@ -2,9 +2,9 @@ import './Pricing.css'
 const Pricing = () => {
     return (
         <>
-            <div
+            <section
                 className={'py-20 pt-40'}>
-                <div
+                <section
                     className={'features-grid '}>
                     <h2
                         id={'pricing'}
@@ -16,10 +16,10 @@ const Pricing = () => {
                         We outline our flexible and affordable options to support you on your journey to optimal health and nutrition. We believe that <br/>
                         everyone deserves access to personalized nutrition guidance and resources
                     </p>
-                </div>
+                </section>
 
                     {/* BUTTONS */}
-                    <div
+                    <section
                         className={'buttons-layout'}>
                         <div>
                             <button
@@ -31,14 +31,14 @@ const Pricing = () => {
                                 Yearly
                             </button>
                         </div>
-                    </div>
+                    </section>
                 <div
                     className={'grid place-content-center'}>
                     <p>
                         Save 50% on Yearly
                     </p>
                 </div>
-                <div
+                <section
                     className={'price-layout'}>
 
                     {/* PRICE CARD 1 */}
@@ -66,8 +66,8 @@ const Pricing = () => {
                             </div>
                         </div>
                     ))}
-                </div>
-            </div>
+                </section>
+            </section>
         </>
     );
 };
@@ -95,23 +95,23 @@ const card = [
     }
 ]
 
-const cardYearly = [
-    {
-        title: 'Basic Plan',
-        text: ['Up to 50% off on Yearly Plan', 'Get started on your health journey with our Basic Plan. It includes personalized nutrition coaching, access to our app, meal planning assistance, and email support.'],
-        price: '$294',
-        button: 'Choose Plan'
-    },
-    {
-        title: 'Basic Plan',
-        text: ['Up to 50% off on Yearly Plan', 'Get started on your health journey with our Basic Plan. It includes personalized nutrition coaching, access to our app, meal planning assistance, and email support.'],
-        price: '$474',
-        button: 'Choose Plan'
-    },
-    {
-        title: 'Basic Plan',
-        text: ['Up to 50% off on Yearly Plan', 'Get started on your health journey with our Basic Plan. It includes personalized nutrition coaching, access to our app, meal planning assistance, and email support.'],
-        price: '$594',
-        button: 'Choose Plan'
-    },
-]
+// const cardYearly = [
+//     {
+//         title: 'Basic Plan',
+//         text: ['Up to 50% off on Yearly Plan', 'Get started on your health journey with our Basic Plan. It includes personalized nutrition coaching, access to our app, meal planning assistance, and email support.'],
+//         price: '$294',
+//         button: 'Choose Plan'
+//     },
+//     {
+//         title: 'Basic Plan',
+//         text: ['Up to 50% off on Yearly Plan', 'Get started on your health journey with our Basic Plan. It includes personalized nutrition coaching, access to our app, meal planning assistance, and email support.'],
+//         price: '$474',
+//         button: 'Choose Plan'
+//     },
+//     {
+//         title: 'Basic Plan',
+//         text: ['Up to 50% off on Yearly Plan', 'Get started on your health journey with our Basic Plan. It includes personalized nutrition coaching, access to our app, meal planning assistance, and email support.'],
+//         price: '$594',
+//         button: 'Choose Plan'
+//     },
+// ]

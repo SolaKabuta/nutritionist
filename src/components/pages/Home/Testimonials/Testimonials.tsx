@@ -8,13 +8,17 @@ import Jen from '../../../../assets/images/jen.jpg'
 import rob from '../../../../assets/images/rob.jpg'
 import emily from '../../../../assets/images/emily.jpg'
 
-
 const Testimonials = () => {
+
+
+
+
+
     return (
         <>
             <div
                 className={'pt-44'}>
-                <div
+                <section
                     className={'features-grid'}>
                     <h2
                         id={'testimonials'}
@@ -25,9 +29,10 @@ const Testimonials = () => {
                         className={'pb-20'}>
                         Our satisfied clients share their success stories and experiences on their journey to better health and well-being.
                     </p>
-                </div>
-                <div
+                </section>
+                <section
                     className={'testi-layout'}>
+
                     {/* CARD-1 */}
                     {card.map((c) => (
                         <div className="testi-card">
@@ -45,11 +50,10 @@ const Testimonials = () => {
                             </div>
                         </div>
                     ))}
+                </section>
 
-
-                </div>
-                    {/* SLIDER-BUTTONS */}
-                <div
+                {/* SLIDER-BUTTONS */}
+                <section
                     className={'nav-layout'}>
                     <img
                         className={'nav-bg'}
@@ -58,7 +62,7 @@ const Testimonials = () => {
                     <img
                         className={'nav-bg'}
                         src={right} alt=""/>
-                </div>
+                </section>
             </div>
         </>
     );
