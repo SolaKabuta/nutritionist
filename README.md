@@ -1,5 +1,9 @@
 # Nutritionist
-This project is for a training purpose
+This project is for a learning purpose, learning by doing as we say.
+
+### Clink the link below to see the current state of the project :
+
+ [Nutrionist](nutritionist-one.vercel.app)
 
 ### Technologies:
 
