@@ -11,7 +11,7 @@ const Features = () => {
     return (
         <>
             <section
-                className={'relative '}>
+                className={'relative 2xl:bottom-20'}>
                 <div
                     className={'features-grid'}>
                     <h2
