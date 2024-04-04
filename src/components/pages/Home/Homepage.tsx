@@ -7,8 +7,7 @@ import Testimonials from "./Testimonials/Testimonials.tsx";
 import Pricing from "./Pricing/Pricing.tsx";
 import Footer from '../../UI/Footer/Footer.tsx'
 
-// MOBILE
-import bannerAvatars from '../../../assets/images/banner_avatars.svg'
+
 
 
 // import { useState } from 'react'
@@ -28,7 +27,6 @@ const Homepage = () => {
                             src={banner}
                             alt="banner image"/>
                     </div>
-                    <section>
                         <p
                             className={'transform'}>
                             Transform Your ❤️ Health with
@@ -81,7 +79,6 @@ const Homepage = () => {
                                 </a>
                             </div>
                         </div>
-                    </section>
                 </div>
             </div>
 
