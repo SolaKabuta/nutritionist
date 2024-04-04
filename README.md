@@ -54,7 +54,11 @@ Tailwind CSS provides a utility-first approach to styling, making development ef
 
 In a near future I'd like to:
 
-- Add smoother animations/transitions
+- Make it responsive
+- Add a state for the like and fac icons in the Blogs section
+- Add a state to make buttons working
+- Add a fonctional carousel for the Testimonials section
+- Add a yearly plan transition
 
 
 Stay tuned!
