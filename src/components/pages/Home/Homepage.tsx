@@ -28,21 +28,7 @@ const Homepage = () => {
                             src={banner}
                             alt="banner image"/>
                     </div>
-                    <section
-                        className={'mobile-layout'}>
-                        {/* MOBILE */}
-                        <div
-                            className={'avatars-mobile'}>
-                            <img
-                                src={bannerAvatars}
-                                alt="Happy Customers"/>
-                            <a
-                                href={'#testimonials'}
-                                className={'customers'}>
-                                <span className={'numbers'}>430+ </span>
-                                Happy Customers
-                            </a>
-                        </div>
+                    <section>
                         <p
                             className={'transform'}>
                             Transform Your ❤️ Health with
