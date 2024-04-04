@@ -8,8 +8,6 @@ import Pricing from "./Pricing/Pricing.tsx";
 import Footer from '../../UI/Footer/Footer.tsx'
 
 
-
-
 // import { useState } from 'react'
 
 
@@ -27,6 +25,7 @@ const Homepage = () => {
                             src={banner}
                             alt="banner image"/>
                     </div>
+                    <section>
                         <p
                             className={'transform'}>
                             Transform Your ❤️ Health with
@@ -79,6 +78,7 @@ const Homepage = () => {
                                 </a>
                             </div>
                         </div>
+                    </section>
                 </div>
             </div>
 
