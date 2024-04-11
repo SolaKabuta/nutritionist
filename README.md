@@ -3,7 +3,7 @@ This project is for a learning purpose, learning by doing as we say.
 
 ### Clink the link below to see the current state of the project :
 
- [Nutrionist](https://nutritionist-8t2gyj4ij-solas-projects.vercel.app/)
+ [Nutrionist](nutritionist-one.vercel.app)
 
 ### Technologies:
 
