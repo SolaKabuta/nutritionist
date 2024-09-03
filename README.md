@@ -71,6 +71,3 @@ Stay tuned!
 - Desktop homepage :
 
 ![](./src/assets/screenshots/Home%20Page%20-%20Desktop.jpg)
-- Desktop team page :
-
-![](./src/assets/screenshots/Team%20Page%20-%20Desktop.jpg)
