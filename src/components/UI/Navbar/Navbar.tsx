@@ -1,7 +1,5 @@
 import './Navbar.css'
-import logo from '../../../assets/logo/Logo.svg'
-import icon from '../../../assets/icons/cricket.ball.fill.svg'
-import arrow from '../../../assets/icons/nav_arrow.svg'
+import {icons, menu} from './data.tsx'
 
 const Navbar = () => {
     const handleClick = () => {
@@ -17,13 +15,13 @@ const Navbar = () => {
                         className={'nav-pattern'}>
                         <img
                             className={'pr-2'}
-                            src={icon} alt=""/>
+                            src={icons[0].itm} alt=""/>
                         <p>
                             Join Our Personalized Nutrition Demo For Free
                         </p>
                         <img
                             className={'pl-4'}
-                            src={arrow} alt=""/>
+                            src={icons[1].itm} alt=""/>
                     </div>
                 </div>
                 <nav>
@@ -31,7 +29,7 @@ const Navbar = () => {
                     <div>
                         <img
                             className={'logo-nav'}
-                            src={logo}
+                            src={icons[2].itm}
                             alt="Nutritionist logo"
                             loading={'lazy'}/>
                     </div>
@@ -48,7 +46,6 @@ const Navbar = () => {
                                href="#Contact">Contact Us
                             </a>
                         </li>
-
                     </ul>
                 </nav>
             </div>
@@ -58,29 +55,4 @@ const Navbar = () => {
 
 export default Navbar;
 
-const menu = [
-    {
-        title: "Home",
-        link: "#",
-    },
-    {
-        title: "About",
-        link: "#About",
-    },
-    {
-        title: "Team",
-        link: "#Team",
-    },
-    {
-        title: "Process",
-        link: "#Process",
-    },
-    {
-        title: "Pricing",
-        link: "#Pricing",
-    },
-    {
-        title: "Blog",
-        link: "#Blog",
-    },
-]
+

@@ -6,7 +6,6 @@ import Blogs from "./Blog/Blogs.tsx";
 import Testimonials from "./Testimonials/Testimonials.tsx";
 import Pricing from "./Pricing/Pricing.tsx";
 
-
 // import { useState } from 'react'
 
 

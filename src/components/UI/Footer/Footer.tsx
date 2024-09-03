@@ -1,6 +1,5 @@
-import logo from "../../../assets/logo/Logo.svg";
-import arrow from "../../../assets/icons/btn_arrow.svg";
 import './Footer.css'
+import {icons, menu} from './data.tsx'
 const Footer = () => {
     return (
         <>
@@ -12,7 +11,7 @@ const Footer = () => {
                         <a href="#">
                             <img
                                 className={'logo-nav'}
-                                src={logo}
+                                src={icons[2].itm}
                                 alt="Nutritionist logo"
                                 loading={'lazy'}/>
                         </a>
@@ -28,16 +27,28 @@ const Footer = () => {
                     </div>
                     <div
                         className={'flex items-center'}>
-                    <a className={'top pr-5'}
+                        <a className={'top pr-5'}
                            href="#">Go To Top
                         </a>
                         <a
                             className={'arrow-btn'}
                             href="#">
-                            <img src={arrow} alt=""/>
+                            <img src={icons[1].itm} alt={icons[1].alt}/>
                         </a>
                     </div>
                 </nav>
+                <section>
+                    <div>
+                        <div className={'bg-numbers-green'}>
+                            <a href="">hello@squareup.com</a>
+                            <a href="">+91 91813 23 2309</a>
+                            <a href="">Somewhere in the World</a>
+                        </div>
+                        <p>
+                            © 2023 Nutritionist. All rights reserved.
+                        </p>
+                    </div>
+                </section>
             </div>
         </>
     );
@@ -45,33 +56,3 @@ const Footer = () => {
 
 export default Footer;
 
-const menu = [
-    {
-        title: "Home",
-        link : "/",
-    },
-    {
-        title: "About",
-        link : "/",
-    },
-    {
-        title: "Team",
-        link : "/",
-    },
-    {
-        title: "Process",
-        link : "/",
-    },
-    {
-        title: "Pricing",
-        link : "/",
-    },
-    {
-        title: "Blog",
-        link : "/",
-    },
-    {
-        title: "Contact",
-        link : "/",
-    },
-]
