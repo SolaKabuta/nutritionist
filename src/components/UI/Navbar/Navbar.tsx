@@ -27,7 +27,6 @@ const Navbar = () => {
                     </div>
                 </div>
                 <nav>
-
                     {/* LOGO */}
                     <div>
                         <img
@@ -37,41 +36,19 @@ const Navbar = () => {
                             loading={'lazy'}/>
                     </div>
                     <ul>
-
                         {/* MENU */}
-                        <li>
-                            <a href="#">Home
-                            </a>
-                        </li>
-                        <li>
-                        <a href="#About">About
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#Team">Team
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#Process">Process
-
-                            </a>
-
-                        </li>
-                        <li>
-                            <a href="#Pricing">Pricing
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#Blog">Blog
-                            </a>
-                        </li>
-
+                        {menu.map((item) => (
+                            <li>
+                                <a href={item.link}>{item.title}</a>
+                            </li>
+                        ))}
                         {/* BTN CONTACT */}
                         <li>
                             <a onClick={handleClick} className={'nav-btn'}
                                href="#Contact">Contact Us
                             </a>
                         </li>
+
                     </ul>
                 </nav>
             </div>
@@ -81,3 +58,29 @@ const Navbar = () => {
 
 export default Navbar;
 
+const menu = [
+    {
+        title: "Home",
+        link: "#",
+    },
+    {
+        title: "About",
+        link: "#About",
+    },
+    {
+        title: "Team",
+        link: "#Team",
+    },
+    {
+        title: "Process",
+        link: "#Process",
+    },
+    {
+        title: "Pricing",
+        link: "#Pricing",
+    },
+    {
+        title: "Blog",
+        link: "#Blog",
+    },
+]

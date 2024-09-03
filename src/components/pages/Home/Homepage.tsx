@@ -5,7 +5,6 @@ import Features from "./Features/Features.tsx";
 import Blogs from "./Blog/Blogs.tsx";
 import Testimonials from "./Testimonials/Testimonials.tsx";
 import Pricing from "./Pricing/Pricing.tsx";
-import Footer from '../../UI/Footer/Footer.tsx'
 
 
 // import { useState } from 'react'
@@ -93,9 +92,6 @@ const Homepage = () => {
 
             {/* PRICING */}
             <Pricing/>
-
-            {/* FOOTER */}
-            <Footer/>
         </>
     );
 };

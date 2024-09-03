@@ -19,43 +19,16 @@ const Footer = () => {
                     </div>
                     <div>
                         <ul>
-                            {/*NAV*/}
-                            <li>
-                                <a href="#">Home
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#About">About
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#Team">Team
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#Process">Process
-
-                                </a>
-
-                            </li>
-                            <li>
-                                <a href="#Pricing">Pricing
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#Blog">Blog
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    href="#Contact">Contact
-                                </a>
-                            </li>
+                            {menu.map((item) => (
+                                <li>
+                                    <a href={item.link}>{item.title}</a>
+                                </li>
+                            ))}
                         </ul>
                     </div>
                     <div
                         className={'flex items-center'}>
-                        <a className={'top pr-5'}
+                    <a className={'top pr-5'}
                            href="#">Go To Top
                         </a>
                         <a
@@ -71,3 +44,34 @@ const Footer = () => {
 };
 
 export default Footer;
+
+const menu = [
+    {
+        title: "Home",
+        link : "/",
+    },
+    {
+        title: "About",
+        link : "/",
+    },
+    {
+        title: "Team",
+        link : "/",
+    },
+    {
+        title: "Process",
+        link : "/",
+    },
+    {
+        title: "Pricing",
+        link : "/",
+    },
+    {
+        title: "Blog",
+        link : "/",
+    },
+    {
+        title: "Contact",
+        link : "/",
+    },
+]
