@@ -53,16 +53,13 @@ Understand the impact of food on your overall health and well-being.
 
 I'm using React to create a dynamic and interactive user experience.
 TypeScript ensures code clarity and maintainability.
-Framer Motion allows me to add subtle animations for a more engaging user experience.
 Tailwind CSS provides a utility-first approach to styling, making development efficient.
 
 In a near future I'd like to:
 
 - Make it responsive
-- Add a state for the like and fac icons in the Blogs section
-- Add a state to make buttons working
-- Add a fonctional carousel for the Testimonials section
-- Add a yearly plan transition
+- Add a state for like and fav icons in the Blogs section
+- Add a fonctional carousel for Testimonials
 
 
 Stay tuned!
