@@ -9,7 +9,7 @@
 }
 
 nav {
-    @apply bg-red-500  flex justify-between items-center gap-56
+    @apply bg-dark-green w-screen px-72 flex justify-between items-center gap-56
 }
 .logo-nav {
     @apply py-5
