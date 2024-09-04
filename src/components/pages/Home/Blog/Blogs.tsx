@@ -112,7 +112,7 @@ const card = [
     {
         img: [card1, avatar, heart, fav],
         name: 'Weight Loss',
-        title: ['The Benefits of Hydratation for Weight Loss', 'Emily Johsnon'],
+        title: ['The Benefits of Hydration for Weight Loss', 'Emily Johnson'],
         text: ['Discover how staying hydrated can support your weight loss goals and improve overall health', '23 May 2023 - 5 min read']
     },
     {

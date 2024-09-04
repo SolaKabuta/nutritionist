@@ -38,10 +38,6 @@ body {
   @apply sm:w-screen
 }
 
-section {
-  @apply max-w-screen-2xl px-1 m-auto max-lg:w-[80%]
-}
-
 h1 {
   font-size: 3.2em;
   line-height: 1.1;

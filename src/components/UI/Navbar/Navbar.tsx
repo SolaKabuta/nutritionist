@@ -8,7 +8,7 @@ const Navbar = () => {
 
     return (
         <>
-            <div>
+            <main>
                 <div
                     className={'upper-nav'}>
                     <div
@@ -43,12 +43,12 @@ const Navbar = () => {
                         {/* BTN CONTACT */}
                         <li>
                             <a onClick={handleClick} className={'nav-btn'}
-                               href="#Contact">Contact Us
+                               href="/">Contact Us
                             </a>
                         </li>
                     </ul>
                 </nav>
-            </div>
+            </main>
         </>
     );
 };
